@@ -43,4 +43,29 @@ public class LabelBuilderTests
       // Assert
       Assert.Equal(expectedCode, result);
     }
+
+    [Fact]
+    public void RaisesExceptionWhenChangePositionOutOfRange()
+    {
+      // Arrange
+      LabelBuilder builder = new LabelBuilder(); 
+      
+      // Assert
+      Assert.Throws<ArgumentOutOfRangeException>(() => builder.ChangePosition((3300, 3300)));
+    }
+
+
+    [Fact]
+    public void GeneratesZplWithSeparator()
+    {
+      // Arrange
+      LabelBuilder builder = new LabelBuilder(); 
+      
+      // Act
+      builder.AddSeparator();
+      string result = builder.GetResultCode();
+
+      // Assert
+      Assert.Equal("^XA\n^FS\n^XZ\n", result);
+    }
 }
