@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xooPhx/+jgbOX0rykWWyKcUGtfeKtpb5PffeKsv2rY8ObRDfjwDC0tLDRISiSynP49ZOF/gyaU9v/SUUWG/AQA==",
+  "dgSpecHash": "Y8dp0wNrkixYT/4g9hg2X2pquFOrnKgpUN6XI0mPZgDhQVHKUIJpyKm2PuYKkhHAo4u/dC+bO8EZVBtxw90RCg==",
   "success": true,
   "projectFilePath": "/home/mytkom/Documents/Dotnet/IO2/tddTest/LabelGenerator.UnitTests/LabelGenerator.UnitTests.csproj",
   "expectedPackageFiles": [
